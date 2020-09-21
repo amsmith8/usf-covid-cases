@@ -15,7 +15,7 @@ library(lubridate)      # easily work with dates and times
 library(tibbletime)     # working with time series data
 library(zoo) # working with time series data)
 library(reshape2)
-
+library(ggplot2)
 
 
 covid_usf <- read.csv("https://raw.githubusercontent.com/amsmith8/usf-covid-cases/master/usf_covid_cases.csv",
