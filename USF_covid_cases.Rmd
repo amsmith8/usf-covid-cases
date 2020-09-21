@@ -45,7 +45,7 @@ a <- reshape2::melt(cases_ma,  id.var='Date')
 
 ggplot(a, aes(x = Date, y = value, col = variable)) +
   geom_line()+
-  ggtitle("USf Covid cases moving averages ")
+  ggtitle("USF Covid cases with moving averages ")
 ```
 
 
